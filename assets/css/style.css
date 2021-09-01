@@ -1694,3 +1694,8 @@ a{
   100% { width: 100%; }
 }
 
+
+.important-doc-box{
+  height: 300px !important;
+}
+
