@@ -180,6 +180,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -256,7 +257,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  background-color: #0099ff;
+  background-color: #ffc451;
 }
 
 .navbar .dropdown:hover > ul {
@@ -347,7 +348,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
   color: #151515;
-  background-color: #0099ff;
+  background-color: #ffc451;
 }
 
 .navbar-mobile .getstarted {
@@ -391,6 +392,7 @@ h1, h2, h3, h4, h5, h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
+
   width: 100%;
   height: 100vh;
   background: url("../img/706.jpg") top center;
@@ -400,6 +402,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero:before {
+  
   content: "";
   background: rgba(0, 0, 0, 0.6);
   position: absolute;
@@ -410,6 +413,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .container {
+
   position: relative;
   padding-top: 74px;
   text-align: center;
@@ -417,7 +421,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero h1 {
   margin: 0;
-  font-size: 56px;
+  font-size: 50px;
   font-weight: 700;
   line-height: 64px;
   color: #fff;
@@ -435,10 +439,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .icon-box {
+ border:1px;
   padding: 30px 20px;
   transition: ease-in-out 0.3s;
   border: 1px solid rgba(255, 255, 255, 0.3);
-  height: 100%;
+  height: 90%;
   text-align: center;
   background: linear-gradient(
     35deg
@@ -446,6 +451,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .icon-box i {
+  
   font-size: 32px;
   line-height: 1;
   color: #ffc451;
@@ -456,8 +462,8 @@ h1, h2, h3, h4, h5, h6 {
   margin: 10px 0 0 0;
   padding: 0;
   line-height: 1;
-  font-size: 20px;
-  line-height: 26px;
+  font-size: 19px;
+  line-height: 24px;
 }
 
 #hero .icon-box h3 a {
@@ -484,7 +490,7 @@ h1, h2, h3, h4, h5, h6 {
     height: auto;
   }
   #hero h1 {
-    font-size: 28px;
+    font-size: 26px;
     line-height: 36px;
   }
   #hero h2 {
@@ -642,11 +648,14 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
+
   text-align: center;
   border: 1px solid #ada8a8;
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
   background: #fff;
+    width: 100%;
+  
 }
 
 .services .icon-box .icon {
@@ -660,6 +669,7 @@ section {
   justify-content: center;
   margin-bottom: 20px;
   transition: 0.3s;
+  
 }
 
 .services .icon-box .icon i {
@@ -670,8 +680,10 @@ section {
 
 .services .icon-box h4 {
   font-weight: 700;
-  margin-bottom: 15px;
-  font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 15px;
+    
 }
 
 .services .icon-box h4 a {
@@ -695,6 +707,92 @@ section {
   transform: translateY(-10px);
 }
 
+@media only screen and (device-width: 768px) .services {
+  
+}
+/*---------------
+#RSS FEED
+-------------------*/
+.post {
+ display: grid;
+ justify-content: center;
+ grid-template-columns: repeat(auto-fit,minmax(1px, 1fr));
+  display: flex;
+  align-items: center;
+  gap: 1%;
+  flex-wrap: wrap;
+}
+.post .section-title {
+  padding-bottom: 5px;
+  margin: 10px;
+  font-size: bold;
+}
+
+.post .section-title h2 {
+  font-size: 20px;
+  font-weight: 400px  ;
+  padding: 0;
+  line-height: 1px;
+  margin: 0 0 5px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-family: "Raleway", sans-serif;
+}
+
+.post .section-title h2::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #ffc451;
+  margin: 4px 10px;
+}
+
+.post .section-title p {
+  margin: 0;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  color: #151515;
+}
+.post a {
+  color: #151515;
+   font-weight: 700;
+   font-family: "Raleway", sans-serif;
+   font-size: 18px;
+}
+@media screen and (min-width: 600px) {
+  .colum1 {
+   
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+            margin-bottom: 1rem;  
+           
+  }
+}
+@media (max-width: 991px) {
+  .colum1  {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    margin-bottom: 1rem;  
+  }
+  .colum1 {
+   
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+            margin-bottom: 1rem;  
+           
+  }
+}
+
+@media (max-width: 667px) {
+  .colum1 {
+   
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+            margin-bottom: 1rem;  
+           
+  }
+}
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
@@ -1613,7 +1711,7 @@ a{
 }
 
 /* Row bootstrap - me dal box-i i fundit ne center*/
-.row{
+.row {
   --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
     display: flex;
@@ -1701,4 +1799,15 @@ a{
 
 .content{
   text-align: justify !important;
+}
+@media only screen and (device-width: 768px) {
+  /* For general iPad layouts */
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+  /* For portrait layouts only */
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+  /* For landscape layouts only */
 }
