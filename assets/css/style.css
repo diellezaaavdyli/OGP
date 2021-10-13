@@ -572,16 +572,6 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
-.odk {
-	 font-weight: 700;
-  font-size: 28px;
-  font-family: "Poppins", sans-serif;
-	padding:10px;
-	font-size: 1.25rem;
-	
-	margin-right: 150px;
-	margin-left: 132px;
-}
 
 /*--------------------------------------------------------------
 # Clients
@@ -1822,22 +1812,3 @@ a{
   /* For landscape layouts only */
 }
 
-/* width */
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: red; 
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #888; 
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555; 
-}
