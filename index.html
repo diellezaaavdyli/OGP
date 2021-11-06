@@ -14,6 +14,8 @@
 <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/slick-theme.css">
         <link rel="stylesheet" href="css/slick.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="js/languages.js"></script>
   <!-- Favicons -->
  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -63,18 +65,20 @@
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Documents</a></li>
+          
+          <li><a class="lang" key="home" class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a  class="lang" key="about"  class="nav-link scrollto" href="#about">About</a></li>
+          <li><a  class="lang" key="documents" class="nav-link scrollto" href="#services">Documents</a></li>
         <!--  <li><a class="nav-link scrollto" href="#social">Social</a></li>-->
           <!-- <li><a class="nav-link scrollto " href="#portfolio">Stories</a></li> -->
-          <li><a class="nav-link scrollto" href="#team">Team</a></li>
+          <li><a  class="lang" key="team" class="nav-link scrollto" href="#team">Team</a></li>
 
 
-          <li><a class="nav-link scrollto" href="#footer">Contact</a></li>
-          <li class="dropdown"><a href="#"><span>English</span> <i class="bi bi-chevron-down"></i></a>
+          <li><a  class="lang" key="contact" class="nav-link scrollto" href="#footer">Contact</a></li>
+          <li class="dropdown"><a class="translate" id="en"><span>English</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="index-alb.html">Albanian</a></li>
+              
+              <li><a  class="translate" id="sq">Albanian</a></li>
               <!-- <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
                   <li><a href="#">Deep Drop Down 1</a></li>
@@ -84,7 +88,7 @@
                   <li><a href="#">Deep Drop Down 5</a></li>
                 </ul>
               </li> -->
-              <li><a href="index-srb.html">Serbian</a></li>
+              <li><a class="translate" id="srb"">Serbian</a></li>
 
             </ul>
           </li>
@@ -103,7 +107,7 @@
     <!-- Modal content -->
     <div class="modal-content">
       <span class="close">×</span>
-      <p style="color: black;"> There are no attachments yet uploaded by the admin panel for this box, please try again
+      <p style="color: black;" class="lang" key="moduls"> There are no attachments yet uploaded by the admin panel for this box, please try again
         in the following
         period. </p>
     </div>
@@ -116,8 +120,8 @@
 
       <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
         <div class="col-xl-6 col-lg-8">
-          <h1>Open Government Partnership Kosova Initiative<span>.</span></h1>
-          <h2>Check the OGP Process Milestones</h2>
+          <h1 class="lang" key="Open">Open Government Partnership Kosova Initiative<span>.</span></h1>
+          <h2 class="lang" key="Check">Check the OGP Process Milestones</h2>
 		  
         </div>
       </div>
@@ -125,32 +129,32 @@
       <div class="row gy-4 mt-5 justify-content-center" data-aos="zoom-in" data-aos-delay="250">
         <div class="col-xl-2 col-md-4">
           <div class="icon-box">
-            <i class="fa fa-check-circle-o" aria-hidden="true"></i>
-            <h3>Eligibility Criteria and Pass the Values Check</h3>
+            <i class="fa fa-check-circle-o" aria-hidden="true" ></i>
+            <h3 class="lang" key="Aligibility">Eligibility Criteria and Pass the Values Check</h3>
           </div>
         </div>
         <div class="col-xl-2 col-md-4">
           <div class="icon-box">
             <i class="fa fa-university" aria-hidden="true"></i>
-            <h3>Ministry of Local Government <br>Administration</h3>
+            <h3 class="lang" key="Ministry">Ministry of Local Government <br>Administration</h3>
           </div>
         </div>
         <div class="col-xl-2 col-md-4">
           <div class="icon-box">
             <i class="fa fa-file-o" aria-hidden="true"></i>
-            <h3>Submitting the Letter of Intent</h3>
+            <h3 class="lang" key="Submitting">Submitting the Letter of Intent</h3>
           </div>
         </div>
         <div class="col-xl-2 col-md-4">
           <div class="icon-box">
             <i class="fa fa-users" aria-hidden="true"></i>
-            <h3>Engaging Civil Society Organizations</h3>
+            <h3 class="lang" key="Engaging">Engaging Civil Society Organizations</h3>
           </div>
         </div>
         <div class="col-xl-2 col-md-4">
           <div class="icon-box">
             <i class="fa fa-spinner" aria-hidden="true"></i>
-            <h3>Submitting the National Action Plan. </h3>
+            <h3 class="lang" key="Submittingg">Submitting the National Action Plan. </h3>
           </div>
         </div>
       </div>
@@ -172,13 +176,12 @@
             <img src="assets/img/handwriting 2.png" class="img-fluid" alt=""> -->
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content " data-aos="fade-right" data-aos-delay="100">
-            <h3>ABOUT</h3> <br>
+            <h3 class="lang" key="ABOUT">ABOUT</h3> <br>
             <blockquote class="blockquote text-left" style="text-align: justify !important;">
               <p class="mb-0">
-              <p>The Kosovo government in its meeting on 9 July 2013 took ​​a decision to initiate the procedures for
-                membership of the Republic of Kosovo in the multinational initiative <br> <a
-                  href="https://www.opengovpartnership.org/" target="_blank">Open Government Partnership</a> (OGP).
-                The decision obliged the Government of Kosovo to implement all obligations required under the OGP
+              <p class="lang" key="Kosovo">The Kosovo government in its meeting on 9 July 2013 took ​​a decision to initiate the procedures for
+                membership of the Republic of Kosovo in the multinational initiative <br></p><span><a href="https://www.opengovpartnership.org/" target="_blank">Open Government Partnership</a> (OGP).</span> 
+                <p class="lang" key="Kosovo1">The decision obliged the Government of Kosovo to implement all obligations required under the OGP
                 membership.As such, the Government of Kosovo with the
                 appointed lead Ministry of European Integration submitted all the necessary documents back in 2013 to
                 become part of the initiative.</p>
@@ -194,30 +197,30 @@
 	  
 	  <blockquote class="blockquote text-left" style="text-align: justify !important;">
 	   <p class="mb-0">
-	    <p> 
+	    <p class="lang" key="Unfortunately"> 
                 Unfortunately, the Kosovo government received the notification letter that it cannot be part of the
                 initiative.
                 Ever since, the Republic of Kosovo has committed to the principles of open and accountable government,
                 and continued its attempts to put Kosovo in the digital
                 governance realm. </p>
              
-                With the adoption of the National Open Data Charter, the E-Kosova state portal, public consultation
+               <p class="lang" key="With"> With the adoption of the National Open Data Charter, the E-Kosova state portal, public consultation
                 platforms, public service digitalisation, e-participation platform,
                 state budget transparency tools and many more, the Kosovo government believes it now possesses the
                 necessary principles to be part of the OGP.
                 On 8 June 2021 the government of Kosovo once again took the
                 decision to begin the initiative for membership at the OGP.</p>
-              <p> The lead Ministry appointed to coordinate
+              <p class="lang" key="The"> The lead Ministry appointed to coordinate
                 and foster the national initiative is the Ministry of Local Government Administration.
                 The National Action Plan will cover the period of 2022-2024 and will provide concrete feasible action
                 items that aim at increasing governmental transparency, all while including the civil society
                 organizations as main catalysts of the initiative.</p>
 
-              This website provides all important documents and other relevant information regarding the Republic of
+              <p class="lang" key="This">This website provides all important documents and other relevant information regarding the Republic of
               Kosovo and its second attempt to become part of the OGP.
               Everyone is encouraged to provide their comments regarding the initiative so that the process is
               transparent and reflects the opinions of the citizens of the Republic of Kosovo.
-              </p>
+              </p></p>
 			  </blockquote>
 </div>
 </div>
@@ -229,8 +232,8 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Documents</h2>
-          <p>Important Documents</p>
+          <h2 class="lang" key="documents">Documents</h2>
+          <p class="lang" key="IMPORTANT">Important Documents</p>
         </div>
 
         <div class="row">
@@ -243,7 +246,7 @@
             <div class="icon-box">
               <a id="myBtn">
                 <div class="icon"><i class="fa fa-eur" aria-hidden="true"></i></div>
-                <h4>OGP Kosova Budget</h4>
+                <h4 class="lang" key="ogp">OGP Kosova Budget</h4>
 				
               </a>
 
@@ -282,7 +285,7 @@
             <div class="icon-box">
               <a id="myBtn1">
                 <div class="icon"><i class="fa fa-file" aria-hidden="true"></i></div>
-                <h4>Letter of Intent
+                <h4 class="lang" key="Letter">Letter of Intent
                 </h4>
               </a>
             </div>
@@ -320,7 +323,7 @@
             <div class="icon-box">
               <a id="myBtn2">
                 <div class="icon"><i class="fa fa-file-text" aria-hidden="true"></i></div>
-                <h4>Open Government Declaration</h4>
+                <h4 class="lang" key="OGD">Open Government Declaration</h4>
               </a>
               <script>
                 // Get the modal
@@ -358,7 +361,7 @@
             <div class="icon-box">
               <a id="myBtn3">
                 <div class="icon"><i class="fa fa-spinner" aria-hidden="true"></i></div>
-                <h4>National Action Plan</h4>
+                <h4 class="lang" key="nap">National Action Plan</h4>
               </a>
               <script>
                 // Get the modal
@@ -395,7 +398,7 @@
             <div class="icon-box">
               <a id="myBtn4">
                 <div class="icon"><i class="fa fa-hand-o-down" aria-hidden="true"></i></div>
-                <h4>Decisions from the <br>Government <br>of Kosovo</h4>
+                <h4 class="lang" key="DGK">Decisions from the <br>Government <br>of Kosovo</h4>
               </a>
               <script>
                 // Get the modal
@@ -916,8 +919,8 @@
     <section id="team" class="team">
   <div class="container" data-aos="fade-up">
         <div class="section-title">
-          <h2>Team</h2>
-          <p>OGP National Coordinating Committee </p>
+          <h2 class="lang" key="team">Team</h2>
+          <p class="lang" key="NATIONAL">OGP National Coordinating Committee </p>
         </div>
       </div>
 
@@ -1101,7 +1104,7 @@
           <a href="https://www.facebook.com/ecmandryshe" target="_blank"><i class="bi bi-facebook"></i></a>
           <a href="https://www.instagram.com/ecmandryshe/" target="_blank"><i class="bi bi-instagram"></i></a>
           <a href="https://www.youtube.com/channel/UCF8Wga0NG6ChQPS5aT_JsvA" target="_blank"><i class="bi bi-youtube"></i></a>
-          <a href="https://www.linkedin.com/in/ecmandryshe/" target="_blank"><i class="bi bi-linkedin"></i></a>
+          <a href="https://www.linkedin.com/company/kosovo-foundation-for-open-society" target="_blank"><i class="bi bi-linkedin"></i></a>
           <a href="https://kfos.org/al" target="_blank"><i class="fa fa-dribbble" aria-hidden="true"></i> </a>
         </div>
       </div>
@@ -1138,7 +1141,7 @@
           <a href="https://www.facebook.com/GLPSKosovo?_rdc=1&_rdr" target="_blank"><i class="bi bi-facebook"></i></a>
           <a href="https://www.youtube.com/channel/UChYZ1Ppcz6Z3Si91KP1jHig" target="_blank"><i class="bi bi-youtube"></i></a>
           <a href="instagram.com/glpskosovo/" target="_blank"><i class="bi bi-instagram"></i></a>
-          <a href="https://www.linkedin.com/company/group-for-legal-and-political-studies" target="_blank"><i class="bi bi-linkedin"></i></a>
+          <a href="https://www.linkedin.com/company/kosovo-foundation-for-open-society" target="_blank"><i class="bi bi-linkedin"></i></a>
           <a href="http://www.legalpoliticalstudies.org/" target="_blank"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
         </div>
       </div>
@@ -1202,64 +1205,25 @@
     </div>
   </div>
 
-      <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-        <div class="member" data-aos="fade-up" data-aos-delay="400">
-          <div class="member-img">
-            <img src="assets/img/KDI.png" class="img-fluid" alt="">
-            <div class="social">
-              <a href="https://twitter.com/KDI_kosova" target="_blank"><i class="bi bi-twitter"></i></a>
-              <a href="https://www.facebook.com/kosovademocraticinstitute/" target="_blank"><i class="bi bi-facebook"></i></a>
-              <a href="https://kdi-kosova.org/" target="_blank"><i class="fa fa-dribbble" aria-hidden="true"></i>
-              </a>
-            </div>
-          </div>
-          <div class="member-info">
-            <h4 style="text-align: center;">KDI</h4>
-            <span></span>
-          </div>
+  <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+    <div class="member" data-aos="fade-up" data-aos-delay="400">
+      <div class="member-img">
+        <img src="assets/img/glsp.png" class="img-fluid" alt="">
+        <div class="social">
+          <a href="https://twitter.com/kfosi?lang=en" target="_blank"><i class="bi bi-twitter"></i></a>
+          <a href="https://www.facebook.com/kfos1/" target="_blank"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.linkedin.com/company/kosovo-foundation-for-open-society" target="_blank"><i
+              class="bi bi-linkedin"></i></a>
+          <a href="https://kfos.org/al" target="_blank"><i class="fa fa-dribbble" aria-hidden="true"></i>
+          </a>
         </div>
       </div>
-	  
-	   <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-        <div class="member" data-aos="fade-up" data-aos-delay="400">
-          <div class="member-img">
-            <img src="assets/img/FIQ.png" class="img-fluid" alt="">
-            <div class="social">
-              <a href="https://twitter.com/FondacioniFIQ/" target="_blank"><i class="bi bi-twitter"></i></a>
-              <a href="https://www.facebook.com/forumiper.iniciativaqytetare/" target="_blank"><i class="bi bi-facebook"></i></a>
-              <a href="https://www.youtube.com/channel/UC5f2nswKI0AoQmg7NHowhNw" target="_blank"><i class="bi bi-youtube"></i></a>
-			  <a href="https://www.instagram.com/fondacionifiq/" target="_blank"><i class="bi bi-instagram"></i></a>
-              <a href="https://fiq-fci.org/" target="_blank"><i class="fa fa-dribbble" aria-hidden="true"></i>
-              </a>
-            </div>
-          </div>
-          <div class="member-info">
-            <h4 style="text-align: center;">FIQ</h4>
-            <span></span>
-          </div>
-        </div>
+      <div class="member-info">
+        <h4>KFOS</h4>
+        <span></span>
       </div>
-	  
-	  <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-        <div class="member" data-aos="fade-up" data-aos-delay="400">
-          <div class="member-img">
-            <img src="assets/img/fool.png" class="img-fluid" alt="">
-            <div class="social">
-              <a href="https://twitter.com/FOLMovement" target="_blank"><i class="bi bi-twitter"></i></a>
-              <a href="https://www.facebook.com/fol.levizja" target="_blank"><i class="bi bi-facebook"></i></a>
-              <a href="https://www.instagram.com/levizjafol/" target="_blank"><i
-                  class="bi bi-instagram"></i></a>
-              <a href="https://levizjafol.org/" target="_blank"><i class="fa fa-dribbble" aria-hidden="true"></i>
-              </a>
-            </div>
-          </div>
-          <div class="member-info">
-            <h4 style="text-align: center;" >Levizja FOL</h4>
-            <span></span>
-          </div>
-        </div>
-      </div>
-
+    </div>
+  </div>
 </div>
 
         </div>
@@ -1361,12 +1325,12 @@
             <div class="footer-info">
               <img src="assets/img/logo-ogp.png" width="80px" height="80px">
               <br><br>
-              <p>
+              <p class="lang" key="Ex" >
                 Ex Rilindja building Floors: 11, 12 and 13 Pristina, Republic of Kosovo<br><br>
-                <strong>Phone:</strong>+383 (0) 38 200 35 567<br>
-                <strong>Phone:</strong>+383 (0) 38 200 35 598<br>
-                <strong>Phone:</strong>+383 (0) 38 200 35 577<br>
-                <strong>Email:</strong> info.mapl@rks-gov.net<br>
+                <strong class="lang" key="phone">Phone:</strong>+383 (0) 38 200 35 567<br>
+                <strong class="lang" key="phone">Phone:</strong>+383 (0) 38 200 35 598<br>
+                <strong class="lang" key="phone">Phone:</strong>+383 (0) 38 200 35 577<br>
+                <strong class="lang" key="email">Email:</strong> info.mapl@rks-gov.net<br>
               </p>
               <div class="social-links mt-3">
                 <a href="https://twitter.com/MPL_KS" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -1378,12 +1342,12 @@
             </div>
           </div>
           <div class="col-lg-3 col-md-6 footer-links" style="margin-left: 21%;margin-top: 93px;">
-            <h4>Important Documents</h4>
+            <h4 class="lang" key="IMPORTANT">Important Documents</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#services">Letter of Intent</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#services">Open Government Declaration</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#services">National Action Plan</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#services">Desicion from the Government of Kosovo</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#services" class="lang" key="Letter">Letter of Intent</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#services" class="lang" key="OGD">Open Government Declaration</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#services" class="lang" key="nap">National Action Plan</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#services" class="lang" key="DGK">Desicion from the Government of Kosovo</a></li>
               <!--<li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>-->
             </ul>
           </div>
@@ -1424,7 +1388,7 @@
     </div>
 
     <div class="container">
-      <div class="copyright">
+      <div class="copyright" class="lang" key="Copy">
         &copy; Copyright 2021 <strong><span>Open Data Kosovo</span></strong>. All Rights Reserved.
       </div>
       <div class="credits">
