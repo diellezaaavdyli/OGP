@@ -2,7 +2,7 @@
     var arrLang = {
       'en': {
         'home': 'Home',
-        'about': 'About',
+        'aboutt': 'About',
         'documents': 'Documents',
         'Member' :'Member',
         'contact':'Contact',
@@ -35,7 +35,7 @@
       },
       'sq': {
         'home': 'Faqja Kryesore',
-        'about': 'Rreth Nesh',
+        'aboutt': 'Rreth Nesh',
         'documents':'Documentet',
         'Member':'Anëtar',
         'contact':'Kontakti',
@@ -68,7 +68,7 @@
       },
       'srb' :{
           'home':'Glavn stranica',
-          'about':'O platformi',
+          'aboutt':'O platformi',
           'documents':'Dokumenti',
           'Member':'Član',
           'contact':'Kontakt',
