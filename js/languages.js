@@ -2,7 +2,7 @@
     var arrLang = {
       'en': {
         'home': 'Home',
-        'about': 'About Us',
+        'about': 'About',
         'documents': 'Documents',
         'team' :'Member',
         'contact':'Contact',
