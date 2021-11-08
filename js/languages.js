@@ -20,7 +20,7 @@
         'With':'With the adoption of the National Open Data Charter, the E-Kosova state portal, public consultation platforms, public service digitalisation, e-participation platform, state budget transparency tools and many more, the Kosovo government believes it now possesses the necessary principles to be part of the OGP. On 8 June 2021 the government of Kosovo once again took the decision to begin the initiative for membership at the OGP.',
         'The' :'The lead Ministry appointed to coordinate and foster the national initiative is the Ministry of Local Government Administration. The National Action Plan will cover the period of 2022-2024 and will provide concrete feasible action items that aim at increasing governmental transparency, all while including the civil society organizations as main catalysts of the initiative.',
         'This' :'This website provides all important documents and other relevant information regarding the Republic of Kosovo and its second attempt to become part of the OGP. Everyone is encouraged to provide their comments regarding the initiative so that the process is transparent and reflects the opinions of the citizens of the Republic of Kosovo.',
-        'IMPORTANT ':'IMPORTANT DOCUMENTS',
+        'IMPORTANT':'IMPORTANT DOCUMENTS',
         'ogp' :'OGP Kosova Budget',
         'Letter':'Letter of Intent',
         'OGD':'Open Government Declaration',
