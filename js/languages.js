@@ -36,7 +36,7 @@
       'sq': {
         'home': 'Faqja Kryesore',
         'aboutt': 'Rreth Nesh',
-        'documents':'Documentet',
+        'documents':'Dokumentet',
         'Member':'Anëtar',
         'contact':'Kontakti',
         'Open':'Iniciativa për Partneritet të Hapur të Qeverisë të Kosovës .',
