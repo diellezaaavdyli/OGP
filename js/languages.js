@@ -64,7 +64,7 @@
         'Ex':'Ndërtesa e Ish Rilindjes, Katet: 11, 12 dhe 13, Prishtinë, Republika e Kosovës',
         'phone':'Telefoni',
         'email':'Email',
-        'Copy':'E drejta e autorit Open Data Kosovos. Të gjitha të drejtat e rezervuara'
+        'Copy':'©E drejta e autorit Open Data Kosovo. Të gjitha të drejtat e rezervuara'
       },
       'srb' :{
           'home':'Glavn stranica',
