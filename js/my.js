@@ -3,8 +3,7 @@ $('.responsive').slick({
   centerPadding: '-10px',
   slidesToShow: 4,
   slidesToScroll: 2,
-    autoplay: true,
-    autoplaySpeed: 1000,
+    
     responsive: [
       {
         breakpoint: 1024,
