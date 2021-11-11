@@ -1966,11 +1966,13 @@ header h1{
       grid-template-columns: repeat(1, 1fr);
     }
  }
+ 
  @media (max-width:1280px) {
 
   .newss{
-   margin-left: 325px;
+   margin-left: -44px;
       grid-template-columns: repeat(1, 1fr);
     }
  }
+
  
