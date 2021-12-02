@@ -1872,7 +1872,9 @@ header h1{
 .blogContent h3{
  font-size: 18px;
  font-weight: 500;
- margin: 0;
+
+ 
+ 
 }
 .blogContent h3 span{
  display: block;
@@ -1880,6 +1882,7 @@ header h1{
  margin-top: 5px;
  font-weight: 600;
  color: rgba(52, 73, 94,1.0)
+
 }
 
 .blogContent a{
