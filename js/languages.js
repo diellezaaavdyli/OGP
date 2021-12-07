@@ -83,7 +83,7 @@
         'last':'Postimi i fundit',
         'title':'Inaugurimi i Komitetit Nacional Koordinues në kuadër të Open Government Partnership – OGP',
         'description':'-29 Tetor, 2021- Anëtarët e Komitetit Kombëtar të Koordinimit, përfaqësues të institucioneve publike dhe shoqërisë civile, anëtarë të Komitetit Kombëtar të Koordinimit, përfaqësues të institucioneve publike dhe shoqërisë civile, do të luajnë një rol kyç në hartimin e Planit Kombëtar të Veprimit 2022-2024. për Kosovën në kuadër të Partneritetit për Qeverisje të Hapur (OGP)',
-        'read':'Lexo më Shum',
+        'read':'Lexo më shumë',
         'Ex':'Ndërtesa e Ish Rilindjes, Katet: 11, 12 dhe 13, Prishtinë, Republika e Kosovës',
         'phone':'Telefoni',
         'email':'Email',
