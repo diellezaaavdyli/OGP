@@ -1827,9 +1827,9 @@ a{
 }
 .newss{
  display: grid;
- grid-template-columns: repeat(3, 1fr);
+ grid-template-columns: repeat(4, 2fr);
  grid-gap: 30px;
- margin: 30px 15px 0px 15px;
+ margin: 30px 15px 20px 187px;
 }
 .post{
  width: 70%;
@@ -1916,16 +1916,23 @@ header h1{
 
 @media (max-width:992px) {
  .newss{
-   grid-template-columns: repeat(3, 1fr);
+   grid-template-columns: repeat(0, 1fr) !important;
  grid-gap: 20px;
- margin-left: 115px;
+ margin-left: 115px !important;
+ 
+ }
+ .singleBlog
+ {
+   width: 333px !important;
+   height: 600px !important;
+   margin-left: -5px !important;
  }
 }
 @media (max-width:767px) {
  .newss{
-   grid-template-columns: repeat(2, 1fr);
+   grid-template-columns: repeat(1, 1fr) !important;
  grid-gap: 15px;
- margin-left: 45px;
+ margin-left: -10px !important;
  }
  .post{
    width: 95%;
@@ -1944,22 +1951,22 @@ header h1{
 @media (max-width:812px) {
 
   .newss{
-   margin-left: -44px;
-      grid-template-columns: repeat(1, 1fr);
+   margin-left: -10px !important;
+      grid-template-columns: repeat(1, 1fr) !important;
     }
  }
  @media (max-width:1024px) {
 
   .newss{
-   margin-left: 90px;
-      grid-template-columns: repeat(1, 1fr);
+   margin-left: 90px !important;
+      grid-template-columns: repeat(0, 1fr) !important;
     }
  }
  @media (max-width:1036px) {
 
   .newss{
    margin-left: 195px;
-      grid-template-columns: repeat(1, 1fr);
+      grid-template-columns: repeat(0, 1fr) !important;
     }
  }
  @media (max-width:720px) {
@@ -1973,8 +1980,8 @@ header h1{
  @media (max-width:1280px) {
 
   .newss{
-   margin-left: -44px;
-      grid-template-columns: repeat(1, 1fr);
+   margin-left: 44px !important;
+      grid-template-columns: repeat(0, 1fr) !important;
     }
  }
 
