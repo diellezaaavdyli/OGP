@@ -1826,10 +1826,14 @@ a{
  margin: 0 auto;
 }
 .newss{
- display: grid;
- grid-template-columns: repeat(4, 2fr);
- grid-gap: 30px;
- margin: 30px 15px 20px 187px;
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  grid-gap: 30px;
+  /* margin: 30px 15px 20px 187px; */
+  align-content: space-between;
+  justify-content: center;
+  align-items: stretch;
+  justify-items: center;
 }
 .post{
  width: 70%;
@@ -1858,6 +1862,7 @@ header h1{
 }
 
 .blogContent{
+  flex-wrap: nowrap;
  position: absolute;
  left: 0;
  bottom: 19px;
@@ -1985,4 +1990,15 @@ header h1{
     }
  }
 
- 
+ .news-posts{
+  padding: 65px 10% 65px;
+ }
+
+ .read-more-btn{
+  padding: 5px 10px;
+  border: 2px solid #fff;
+  border-radius: 16px;
+  font-weight: 400;
+  float: left;
+  background-color: #ffc451;
+ }
