@@ -168,14 +168,14 @@ var arrLang = {
     'post-2-title': 'Inaugurisanje Nacionalnog koordinanacionog odbora u okviru “ Open Government Partnership – OGP”',
     'post-2-description': 'Članovi Nacionalnog koordinacionog odbora, predstavnici javnih institucija i civilnog društva, članovi Nacionalnog koordinacionog odbora, predstavnici javnih institucija i civilnog društva, imaće ključnu ulogu u izradi Nacionalnog akcionog plana 2022-2024...',
     'post-3-title': 'Predstavnici vladinih institucija i OCD razgovaraju o koracima ka članstvu Kosova u OGP',
-    'post-3-description': 'U cilju koordinisanja procesa za učlanjivanje Republike Kosovo u Partnerstvu za otvorenu vladu - OGP, održana je informativna sesija sa predstavnicima civilnog društva.Rukovodilac Nacionalnog koordinacionog odbora za izradu  Nacionalnog plana delovanja u okviru OGP- a g.Fidan Kalaja...',
+    'post-3-description': 'U cilju koordinisanja procesa za učlanjivanje Republike Kosovo u Partnerstvu za otvorenu vladu - OGP, održana je informativna sesija sa predstavnicima civilnog društva.Rukovodilac Nacionalnog koordinacionog odbora za izradu  Nacionalnog plana delovanja u okviru OGP-a...',
     'december': 'Decembar',
     'october': 'Oktobar',
     'july': 'Juli',
-    'post-1-p1': 'At the invitation of the head of the National Coordination Committee for drafting of the National Action Plan 2022-2024 in the framework of the Open Government Partnership - OGP, Mr. Fidan Kalaja, a meeting was held to establish a working secretariat for the membership of the Republic of Kosovo in OGP.',
-    'post-1-p2': 'During his speech, Mr. Kalaja emphasized the need for coordination and cooperation between state institutions and civil society in the framework of the establishment of the working secretariat, given the importance of the membership of the Republic of Kosovo in the OGP.',
-    'post-1-p3': 'During this meeting, after an open and transparent process it is established the working secretariat for OGP, consisting of representatives of civil society and representatives of institutions.',
-    'post-1-p4': 'At the end of the meeting, in an open discussion, were addressed the main issues which are related to the importance, the process and the work to be undertaken in the framework of the membership of the Republic of Kosovo in the OGP.',
+    'post-1-p1': 'Na poziv lidera Nacionalnog koordinacionog odbora za izradu Nacionalnog akcionog plana 2022-2024 u okviru Partnerstva za otvorenu vlast – OGP, g. Fidan Kalaja, održan je sastanak za uspostavljanje radnog sekretarijata za članstvo Republike Kosovo u OGP.',
+    'post-1-p2': 'Tokom svog govora g. Kalaja je istakao potrebu koordinacije i saradnje između državnih institucija i civilnog društva u okviru uspostavljanja radnog sekretarijata, s obzirom na značaj članstva Republike Kosovo u OGP.',
+    'post-1-p3': 'Tokom ovog sastanka, nakon otvorenog i transparentnog procesa, uspostavljen je radni sekretarijat za OGP, koji čine predstavnici civilnog društva i predstavnici institucija.',
+    'post-1-p4': 'Na kraju sastanka, u otvorenoj diskusiji, upućena su glavna pitanja koja se odnose na značaj, proces i rad koji treba preduzeti u okviru članstva Republike Kosovo u OGP.',
 
   }
 };

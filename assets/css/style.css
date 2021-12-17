@@ -2002,3 +2002,12 @@ header h1{
   float: left;
   background-color: #ffc451;
  }
+
+ .card-title{
+    color: black !important;
+    font-size: 17px;
+    font-weight: 600;
+ }
+ .card-title:hover{
+  color: #ffc451 !important;
+}
