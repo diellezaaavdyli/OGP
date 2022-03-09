@@ -2011,3 +2011,11 @@ header h1{
  .card-title:hover{
   color: #ffc451 !important;
 }
+
+.newsrow{
+  justify-content: flex-start;
+    align-content: center;
+}
+.newsrow .col{
+  margin-bottom:20px;
+}
