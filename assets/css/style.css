@@ -418,6 +418,9 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 74px;
   text-align: center;
 }
+#about h1 {
+  font-size: 30px;
+}
 
 #hero h1 {
   margin: 0;
