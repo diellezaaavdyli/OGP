@@ -419,7 +419,10 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 #about h1 {
-  font-size: 30px;
+  font-size: 25px;
+  color: black !important;
+  font-weight: 700;
+   text-align: left;
 }
 
 #hero h1 {
